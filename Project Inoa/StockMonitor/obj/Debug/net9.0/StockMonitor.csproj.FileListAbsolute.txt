@@ -25,3 +25,12 @@ C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\obj\Debu
 C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\obj\Debug\net9.0\StockMonitor.pdb
 C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\obj\Debug\net9.0\StockMonitor.genruntimeconfig.cache
 C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\obj\Debug\net9.0\ref\StockMonitor.dll
+C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\bin\Debug\net9.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\matan\OneDrive\Documentos\GitHub\4.1\Project Inoa\StockMonitor\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll

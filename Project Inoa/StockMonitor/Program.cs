@@ -3,6 +3,8 @@ using System.IO;
 using System.Net.Mail;
 using System.Threading.Tasks;
 using YahooFinanceApi;
+using Microsoft.Extensions.Configuration;
+
 
 class Program
 {
@@ -13,6 +15,11 @@ class Program
             Console.WriteLine("Rode esse comando: dotnet run -- <Ativo> <PreçoVenda> <PreçoCompra>");
             return;
         }
+
+        //Configurando oo ambiente para acessar os Gerenciadores de Segredo para acessar a senha do email
+        var builder = new ConfigurationBuilder()
+            .AddUserSecrets<Program>();
+        var configSecrets = builder.Build();
 
         //Na api da Yahoo Finance, os ativos precisam da extensão .SA
         string ativo = args[0] + ".SA";
@@ -27,8 +34,15 @@ class Program
         string smtpServidor = config[1];
         int smtpPorta = int.Parse(config[2]);
         string smtpUsuario = config[3];
-        string smtpSenha = config[4];
+        //Para rodar o código precisa setar a senha do email utilizado para criação de alertas nas variaveis de sistema. Rode o codigo: dotnet user-secrets set "SMTP_PASSWORD" "SenhaDoEmail"
+        string smtpSenha = configSecrets["SMTP_PASSWORD"];
+        if (string.IsNullOrEmpty(smtpSenha))
+        {
+            Console.WriteLine("Erro: O segredo 'SMTP_PASSWORD' não foi configurado.");
+            return;
+        }
 
+ 
         Console.WriteLine($"Monitorando {ativo}...");
 
         while (true)

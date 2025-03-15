@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("01085b70-d0d2-43e7-aac4-8d4f057c5b3e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("StockMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0777ac1749feed9810f3c778f6f8520495009747")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3f993cc6b926ec5026d5c58a8209968f9ec5cc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("StockMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StockMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
