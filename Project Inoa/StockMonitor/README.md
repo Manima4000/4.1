@@ -63,7 +63,7 @@ Ao rodar o programa, você precisa informar três parâmetros na **linha de coma
 
 **Exemplo de execução:**
 ```bash
-dotnet run -- PETR4.SA 35.70 35.40
+dotnet run -- PETR4 35.70 35.40
 ```
 
 ### 2. Monitoramento da Cotação
